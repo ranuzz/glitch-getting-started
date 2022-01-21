@@ -1,0 +1,73 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: gray;
+}
+
+
+header {
+
+  font-size: 1.5rem;
+  text-align: center;
+  
+}
+
+main {
+  margin-top: 5rem;
+  min-height: 100%;
+  text-align: center;
+}
+
+button {
+  color: sykblue;
+  width: 20rem;
+  height: 2rem;
+  
+}
+
+.arena {
+  margin: 5rem;
+  padding: 5rem;
+}
+
+.thebox {
+  margin: 20px;
+  padding: 20px;
+  background-color: skyblue;
+  text-align: center;
+  transition: all 1s ease-out;
+  
+}
+
+.thebox:hover {
+    
+  width: 100px;
+  height: 400px;
+
+}
+
+.rotatebox {
+  transform: rotate(180deg);
+}
+
+footer {
+  margin-bottom: 2rem;
+  width: 90%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
